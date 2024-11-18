@@ -13,6 +13,7 @@
         "packagesPath": "/home/jaan/.nuget/packages/",
         "outputPath": "/home/jaan/Documentos/Cursos/Curso .Net/minimal-api/obj/",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "/home/jaan/.nuget/NuGet/NuGet.Config"
         ],
