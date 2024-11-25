@@ -20,6 +20,7 @@ public class DbContexto : DbContext
     public DbSet<Administrador> Administrador { get; set; } = default!;
 
     public DbSet<Veiculo> Veiculos { get; set; } = default!;
+    public IEnumerable<object> Administradores { get; internal set; }
 
 
     //Cria um método para configurar o modelo do banco de dados
@@ -45,7 +46,7 @@ public class DbContexto : DbContext
         {
 
             //cria uma variável para receber a string de conexão do arquivo appsettings.json
-            var stringConexao = _configuracaoAppSettings.GetConnectionString("mysql")?.ToString();
+            var stringConexao = _configuracaoAppSettings.GetConnectionString("Mysql")?.ToString();
 
             //verifica se a string de conexão não é nula ou vazia
             if(!string.IsNullOrEmpty(stringConexao))

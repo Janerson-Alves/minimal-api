@@ -104,3 +104,16 @@
 /home/jaan/Documentos/Cursos/Curso .Net/minimal-api/obj/Debug/net8.0/minimal-api.pdb
 /home/jaan/Documentos/Cursos/Curso .Net/minimal-api/obj/Debug/net8.0/minimal-api.genruntimeconfig.cache
 /home/jaan/Documentos/Cursos/Curso .Net/minimal-api/obj/Debug/net8.0/ref/minimal-api.dll
+/home/jaan/Documentos/Cursos/Curso .Net/minimal-api/bin/Debug/net8.0/Microsoft.OpenApi.dll
+/home/jaan/Documentos/Cursos/Curso .Net/minimal-api/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/jaan/Documentos/Cursos/Curso .Net/minimal-api/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/jaan/Documentos/Cursos/Curso .Net/minimal-api/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/jaan/Documentos/Cursos/Curso .Net/minimal-api/obj/Debug/net8.0/minimal-api.MvcApplicationPartsAssemblyInfo.cs
+/home/jaan/Documentos/Cursos/Curso .Net/minimal-api/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/jaan/Documentos/Cursos/Curso .Net/minimal-api/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/home/jaan/Documentos/Cursos/Curso .Net/minimal-api/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/jaan/Documentos/Cursos/Curso .Net/minimal-api/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/home/jaan/Documentos/Cursos/Curso .Net/minimal-api/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+/home/jaan/Documentos/Cursos/Curso .Net/minimal-api/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/jaan/Documentos/Cursos/Curso .Net/minimal-api/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/home/jaan/Documentos/Cursos/Curso .Net/minimal-api/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll

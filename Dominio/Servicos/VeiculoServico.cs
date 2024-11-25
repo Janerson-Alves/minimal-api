@@ -41,7 +41,7 @@ public class VeiculoServico : IVeiculoServico
         _contexto.SaveChanges();
     }
     //Lista todos os veículos com paginação e filtro por nome e marca
-    public List<Veiculo> Todos(int pagina = 1, string nome = null, string marca = null)
+    public List<Veiculo> Todos(int? pagina = 1, string nome = null, string marca = null)
     {
         //cria uma query para a entidade Veiculo
         var query = _contexto.Veiculos.AsQueryable();
@@ -52,8 +52,13 @@ public class VeiculoServico : IVeiculoServico
         }
         //verifica se a marca não é nula ou vazia
         int itensPorPagina = 10;
+        
+        //verifica se a marca não é nula ou vazia
+        if(pagina != null)
+        {
         // faz a conta para a paginação dos veículos e pula os veículos que já foram listados
-        query = query.Skip((pagina - 1) * itensPorPagina).Take(itensPorPagina);
+            query = query.Skip(((int)pagina - 1) * itensPorPagina).Take(itensPorPagina);
+        }
         //retorna a lista de veículos
         return query.ToList();
     }

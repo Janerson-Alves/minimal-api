@@ -7,7 +7,7 @@ namespace MinimalApi.Dominio.Interfaces;
 public interface IVeiculoServico
 {
     //cria uma lista de veículos com paginação e filtro por nome e marca do veículo
-    List<Veiculo> Todos(int pagina = 1, string? nome = null, string? marca = null);
+    List<Veiculo> Todos(int? pagina = 1, string? nome = null, string? marca = null);
 
     //cria um veículo por Id
     Veiculo? BuscarPorId(int id);
