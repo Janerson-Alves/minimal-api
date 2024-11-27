@@ -163,7 +163,7 @@ app.MapGet("/administradores", ([FromQuery] int? pagina, IAdministradorServico a
     //retorna a lista de administradores
     return Results.Ok(adms);
 }).RequireAuthorization().
-RequireAuthorization(new AuthorizeAttribute { Roles = "Adm"})
+RequireAuthorization(new AuthorizeAttribute { Roles = "adm"})
 .WithTags("Administradores");
 
 // Rpta para traer 1 administrador por Id
